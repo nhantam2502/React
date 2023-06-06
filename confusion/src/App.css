@@ -36,3 +36,98 @@
     transform: rotate(360deg);
   }
 }
+
+/* Navigation bar */
+.header{
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0px;
+  display: flex;
+}
+
+nav{
+  background-color: black;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+}
+
+a.active {
+  background: rgba(255, 255, 0, 0.833);
+}
+
+.switch-mode-bar{
+  margin-right: 10px;
+}
+
+/* Player display */
+ .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  margin: 0 auto;
+  grid-gap: 30px;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.card{
+  background-color: gainsboro;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card img{
+  width: 100%;
+}
+
+h3{
+  margin-top: 20px;
+}
+
+.title {
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+.btn__detail{
+  margin-bottom: 0;
+}
+
+button {
+  width: 100%;
+  background-color: black;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.link{
+  color: white;
+  text-decoration: none;
+}
+
+/* Footer display */
+.footer{
+  background-color: rgb(189, 166, 39);
+}
+
+.footer p{
+  margin: 20px 0 0;
+  color: #fff;
+  padding: 10px;
+}
